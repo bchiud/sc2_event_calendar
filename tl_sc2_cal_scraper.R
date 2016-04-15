@@ -20,7 +20,7 @@ get_html_src<-function(time=Sys.time()){
 }
 get_html_src()
 
-# day : div class="ev-feed" data-day="4"         <td class="evc-l">
+# day : div class="ev-feed" data-day="4" <td class="evc-l">
 day<-xpathSApply(
   doc=html_src
   ,path='//td[@class="evc-l"]'
